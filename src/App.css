@@ -95,6 +95,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: transform 0.5s ease;
+  margin-bottom: 120px;
 }
 
 .center-image img {
@@ -363,6 +364,11 @@ body {
 
   .center-text .title {
     font-size: 2.5rem;
+    margin-top: 180px;
+  }
+
+  .center-text .buttons {
+    margin-left: 120px;
   }
 
   .center-text .subtitle {
