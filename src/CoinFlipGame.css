@@ -1,0 +1,97 @@
+.coin-flip-container {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .choices button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .choices button:hover {
+    background-color: #45a049;
+  }
+  
+  .choices button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .play-button {
+    margin-top: 20px;
+  }
+  
+  .play-button button {
+    padding: 12px 30px;
+    font-size: 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .play-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  .coin-flip-animation {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .result-container p {
+    font-size: 1.5rem;
+    color: #ff4081;
+  }
+  
+  .play-again button {
+    padding: 12px 30px;
+    font-size: 1.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .play-again button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Confetti Styles (react-confetti) */
+  .confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
